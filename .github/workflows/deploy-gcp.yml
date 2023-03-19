@@ -3,7 +3,7 @@ name: Deploy Cloud Functions
 on:
   schedule:
     # UTC
-    - cron: "27 17 0 0 0"
+    - cron: "27 17 * * *"
   workflow_dispatch:
     inputs:
       mypy_version:
